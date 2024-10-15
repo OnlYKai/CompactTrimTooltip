@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "compacttrimtooltip",
+	"version": "${version}",
+	"name": "Compact Trim Tooltip",
+	"description": "",
+	"authors": [
+		"Kai"
+	],
+	"contact": {
+		"homepage": "https://github.com/OnlYKai/CompactTrimTooltip/releases",
+		"issues": "https://github.com/OnlYKai/CompactTrimTooltip/issues",
+		"sources": "https://github.com/OnlYKai/CompactTrimTooltip"
+	},
+	"license": "MIT",
+	"icon": "assets/ctt/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.kai.ctt.CompactTrimTooltipClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
